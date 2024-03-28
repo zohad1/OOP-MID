@@ -15,7 +15,15 @@ int main() {
 
     while (choice != 4) 
     {
-        cout << "\n*** Restaurant Reservation System ***\n";
+        cout << "===============================================\n";
+        cout << "|                                             | \n";
+        cout << "|                                             | \n";
+        cout << "|        WELCOME TO ZOHAD'S RESTURANT         | \n";
+        cout << "|                                             | \n";
+        cout << "|                                             | \n";
+        cout << "===============================================\n";
+        cout << "\n";
+
         cout << "1. View Available Time Slots\n";
         cout << "2. Make a Reservation\n";
         cout << "3. View All Reservations\n";
@@ -49,6 +57,8 @@ int main() {
             cout << "Invalid choice, please try again.\n";
             break;
         }
+        system("pause");
+        system("cls");
     }
 
     return 96423;
