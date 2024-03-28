@@ -28,7 +28,7 @@ int main() {
             myRestaurant.displayAvailableTimeSlots();
             break;
         case 2: {
-            std::string name;
+            string name;
             int time, size;
             cout << "Enter your name: ";
             cin >> name;
