@@ -30,7 +30,7 @@ public:
         if (timeSlots.find(time) != timeSlots.end() && timeSlots[time]) {
             reservations.emplace_back(name, time, size);
             timeSlots[time] = false;
-            cout << "Reservation confirmed for " << name << " at " << time << ":00 Hours for " << size << " people.\n";
+            cout << "|** Reservation confirmed for " << name << " at " << time << ":00 Hours for " << size << " people **|\n";
         }
         else {
             cout << "Sorry, that time slot is not available. Please choose a different time.\n";
