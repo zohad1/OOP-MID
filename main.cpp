@@ -42,7 +42,7 @@ int main() {
             cin >> name;
             cout << "Enter preferred time slot (14 to 22): ";
             cin >> time;
-            cout << "Enter party size: ";
+            cout << "Enter group size: ";
             cin >> size;
             myRestaurant.makeReservation(name, time, size);
             break;
